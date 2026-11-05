@@ -27,4 +27,5 @@ import lombok.Setter;
 
     @Column(name = "email", nullable = false, unique = true, length = 100)
     private String email;
+
 }
